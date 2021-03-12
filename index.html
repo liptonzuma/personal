@@ -18,49 +18,64 @@
 <body>
     <header id="welcome-section">
         <nav class="navbar" id="navbar">
+            <a href="#" class="navbar-brand m-auto">FrontendGeek</a>
             <ul class="links">
                 <li><a href="#about" class="nav-link">About</a></li>
                 <li><a href="#projects" class="nav-link">Work</a></li>
                 <li><a href="#contact" class="nav-link">contact</a></li>
             </ul>
         </nav>
-        <div class="intro text-center m-auto" id="about">
-            <h1 class="d-flex justify-content-around">!Hey I am Solomon</h1>
-            <p class="m-5">
-                <i class="fa fa-chevron-left"></i> a frontend developer <i class="fa fa-chevron-right"></i>
-            </p>
-            <div class="container m-5">
-                <div class="stacks row">
-                    <div class="col-2">
-                        <img src="./img/html5.svg" alt="html" class="image-fluid w-100">
+        <div class="intro m-auto" id="about">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li class="active" data-target="#myCarousel" data-slide-to="0"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active me">
+                        <div class="container">
+                            <h1>My name is Solomon Boateng Gyan</h1>
+                            <p>I am frontend developer. I love to build responsive and functional UI <br> Hit me up for your next project or your current project. I love to code.
+                            </p>
+                        </div>
                     </div>
-                    <div class="col-2">
-                        <img src="./img/css3.svg" alt="css" class="image-responsive w-100">
-                    </div>
-                    <div class="col-2">
-                        <img src="./img/bootstrap-4.svg" alt="css" class="image-responsive w-100">
+                    <div class="carousel-item react">
+                        <div class="container">
+                            <h1>React</h1>
+                            <p>I build the frontend of React Apps. So for your react project <br> Just head straight to my email or my contact to get <br> your app looking exceptional.
+                            </p>
 
+                        </div>
                     </div>
-                    <div class="col-2">
-                        <img src="./img/logo-javascript.svg" alt="css" class="image-responsive w-100">
+                    <div class="carousel-item angular">
+                        <div class="container">
+                            <h1>Angular</h1>
+                            <p>I build the frontend of Angular Apps. So for your Angular projects <br> Just head straight to my email or my contact to get <br> your app looking exceptional.
+                            </p>
+
+                        </div>
                     </div>
-                    <div class="col-2">
-                        <img src="./img/angular-icon-1.svg" alt="css" class="image-responsive w-100">
-                    </div>
-                    <div class="col-2">
-                        <img src="./img/nodejs-icon.svg" alt="css" class="image-responsive w-100">
+                    <div class="carousel-item node">
+                        <div class="container">
+                            <h1>NodeJs</h1>
+                            <p>I build the frontend of NodeJs Apps. So for your NodeJs projects <br> Just head straight to my email or my contact to get <br> your app looking exceptional.
+                            </p>
+                        </div>
                     </div>
                 </div>
+
             </div>
         </div>
 
     </header>
     <main>
-        <div class="projects" id="projects">
-            <div class="container">
-                <h1 class="text-center mt-4"> <u>
-                    Take a look at my projects
-                </u> </h1>
+        <div class="projects m-auto" id="projects">
+            <div class="container jumbotron ">
+                <h1 class="text-center intro">
+                    Works
+                </h1>
                 <div class="project-imgs ">
                     <div class="row">
                         <div class="chore-door col-md-4 p-2 project-tile">
@@ -68,7 +83,7 @@
                                 <figure>
                                     <img class="w-100" src="./img/chore door.jpg" alt="chore door bot game">
                                     <figcaption class="text-center pt-2">
-                                        <code><</code>Chore Door Bot<code>/></code>
+                                        <p><code><</code>Chore Door Bot<code>/></code></p>
                                     </figcaption>
                                 </figure>
                             </a>
@@ -78,7 +93,7 @@
                                 <figure>
                                     <img class="w-100" src="./img/which is greater.jpg" alt="chore door bot game">
                                     <figcaption class="text-center">
-                                        <code><</code>Which is greater <code>/></code>
+                                        <p><code><</code>Which is greater <code>/></code></p>
                                     </figcaption>
                                 </figure>
                             </a>
@@ -89,7 +104,7 @@
                                 <figure>
                                     <img class="w-100" src="./img/tribute page.jpg" alt="chore door bot game">
                                     <figcaption class="text-center">
-                                        <code><</code>Tribute Page <code>/></code>
+                                        <p><code><</code>Tribute Page <code>/></code> </p>
                                     </figcaption>
                                 </figure>
                             </a>
@@ -101,7 +116,7 @@
                                 <figure>
                                     <img class="w-100" src="./img/digital clock.jpg" alt="chore door bot game">
                                     <figcaption class="text-center">
-                                        <code><</code>Javascript Digital clock <code>/></code>
+                                        <p><code><</code>Javascript Digital clock <code>/></code></p>
                                     </figcaption>
                                 </figure>
                             </a>
@@ -111,7 +126,7 @@
                                 <figure>
                                     <img class="w-100" src="./img/calculator.jpg" alt="chore door bot game">
                                     <figcaption class="text-center" style="background: orangered;color: #ddd; padding: 3rem;">
-                                        <code style="color: #ddd;"><</code>Javascript Calculator <code style="color: #ddd;">/></code>
+                                        <p><code style="color: #ddd;"><</code>Javascript Calculator <code style="color: #ddd;">/></code> </p>
                                     </figcaption>
                                 </figure>
                             </a>
@@ -121,7 +136,7 @@
                 </div>
             </div>
         </div>
-        <div class="contact" id="contact">
+        <div class="contact m-auto" id="contact">
             <div class="container text-center">
                 <h1 class="pb-3">
                     Let's work together...
@@ -133,6 +148,7 @@
                     <a href="https://twitter.com/gyan_boateng"><i class="fa fa-twitter"></i> Twitter</a>
 
                     <a href="https://www.github.com/liptonzuma" id="profile-link" target="_blank"> <i class="fa fa-github"></i> Github </a>
+
                 </div>
             </div>
             <hr>
